@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Shree Sai</title>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+<style>
+  .container2 {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  
+.item {
+  width: calc(25% - 0px); 
+  /* margin-bottom: 20px;  */
+  /* padding:15px; */
+  width: calc(25% - 0px);
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.img-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 236, 236, 0);
+    transition: background-color 0.3s;
+    z-index: 1;
+    
+}
+@media (max-width: 768px) {
+  .item {
+    width: calc(33.33% - 20px);
+  }
+}
+
+.img-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 236, 236, 0);
+  transition: background-color 0.3s;
+  z-index: 1;
+}
+.parallelogram {
+	width: 20%;
+    /* height: 50px; */
+    transform: skew(20deg);
+    background: #495d88;
+    position: relative;
+    left: 40%;
+    padding: 1%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;  
+}
+
+.parallelogram span {
+    display: inline-block;
+    transform: skew(-20deg);
+}
+.about_section {
+    position: relative;
+    background-image: url(images/about-img.jpg);
+    background-size: cover;
+}
+
+.about_section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 3, 3, 70%); 
+}
+
+.container {
+  color: white; 
+    position: relative;
+    z-index: 1; 
+}
+
+.detail-box {
+    text-align: justify;
+}
+.btn_readmore{
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  color: #324e8a;
+  border-radius: 25px;
+  padding: 11px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto"> <!-- Use ms-auto class here -->
+                <li class="nav-item active dropdown cool-link">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown cool-link">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown cool-link">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
+                  <ul class="dropdown-menu">
+                    <li><a  class="test" href="complete.html">Completed</a></li>
+                    <li><a  class="test" href="undercontruction.html">UnderConstruction</a></li>
+                    <li><a  class="test" href="upcoming.html">Upcoming</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown cool-link">
+                  <a class="nav-link" href="career.html">Career</a>
+                </li>
+                <li class="nav-item dropdown cool-link">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+    
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>  
+                      Transforming 
+                      Visions  <br>into
+                      Solid Structures
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="about.html" class="btn2">
+                        About Us
+                      </a>
+                  
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" style="background: #324e8a;">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container">
+          <h2>
+            Services
+          </h2>
+          <p>
+            Design shapes the vision, 'Build' brings it alive, 'Inspire' leaves a legacy - our pledge to transformative construction.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Construction
+                  Services
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using L
+                </p>
+                <a href="about.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Building
+                  Modeling
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using L
+                </p>
+                <a href="about.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Pre
+                  construction
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using L
+                </p>
+                <a href="about.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Management
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using L
+                </p>
+                <a href="about.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+  <!-- about section -->
+
+  <section class="about_section" style="padding: 40px;">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box" style="text-align:justify;">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p>
+              At Shree Sai Developers, we take pride in our unwavering commitment to providing exceptional construction and development services. Our journey began with a vision to revolutionize the construction industry by delivering innovative solutions and unmatched quality. With years of experience and a dedicated team, we stand as a reliable partner in bringing your dreams to life.<br><br>Established in 2010, Shree Sai Developers has flourished from its humble beginnings. What started as a small team of passionate individuals has evolved into a renowned construction company. Over the years, we've worked on diverse projects, from residential buildings to commercial spaces, consistently delivering excellence and exceeding expectations.
+            </p>
+            <a href="about.html">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-7 ">
+          <div class="img-box">
+            <img src="images/about-img.jpg" alt="">
+          </div>
+        </div>
+
+      </div> -->
+      <h3 class="text-center">About Us</h3>
+      <p style=" color: white; 
+      position: relative;
+      z-index: 1; ">
+        At Shree Sai Developers, we take pride in our unwavering commitment to providing exceptional construction and development services. Our journey began with a vision to revolutionize the construction industry by delivering innovative solutions and unmatched quality. With years of experience and a dedicated team, we stand as a reliable partner in bringing your dreams to life.<br><br>Established in 2010, Shree Sai Developers has flourished from its humble beginnings. What started as a small team of passionate individuals has evolved into a renowned construction company. Over the years, we've worked on diverse projects, from residential buildings to commercial spaces, consistently delivering excellence and exceeding expectations.
+      </p><br>
+      <a href="about.html" class="btn_readmore">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <!-- end about section -->
+  <!-- project section -->
+  <section class="project_section_1" style="padding: 40px;">
+  <div class="parallelogram"><span>Projects</span></div><br>
+    <div class="container2 flex-container">
+      
+      <div class="item">
+        <a href="vista.html" class="pin_link"> <div class="box">
+       
+          <div class="img-box">
+            <img src="images/6.jpg" alt="" />
+          </div>
+          <div class="detail-box">
+            <p style="color: #828895;font-size: 12px;">Residential</p>
+            <h5> Renuka Vista </h5>
+            <p style="color: #828895;font-size: 12px;">Location</p>
+            <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="item">
+        <a href="nilay.html" class="pin_link"><div class="box">
+          <div class="img-box">
+            <img src="images/7.jpg" alt="" />
+          </div>
+          <div class="detail-box">
+              <p style="color: #828895;font-size: 12px;">Residential</p>
+              <h5>  Renuka Nilay  </h5>
+              <p style="color: #828895;font-size: 12px;">Location</p>
+              <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+            </div>
+        </div>
+      </a>
+      </div>
+      <div class="item">
+        <a href="vista.html" class="pin_link"> <div class="box">
+              <div class="img-box">
+                <img src="images/3.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <p style="color: #828895;font-size: 12px;">Residential</p>
+                <h5>Sai Darshan</h5>
+                <p style="color: #828895;font-size: 12px;">Location</p>
+                <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="item">
+            <a href="vista.html" class="pin_link">  <div class="box">
+              <div class="img-box">
+                <img src="images/9.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <p style="color: #828895;font-size: 12px;">Residential</p>
+                <h5>Sai Darshan</h5>
+                <p style="color: #828895;font-size: 12px;">Location</p>
+                <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="vista.html" class="pin_link"> <div class="box">
+              <div class="img-box">
+                <img src="images/5.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <p style="color: #828895;font-size: 12px;">Residential</p>
+                <h5>Renuka Sai</h5>
+                <p style="color: #828895;font-size: 12px;">Location</p>
+                <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="item">
+            <a href="vista.html" class="pin_link"> <div class="box">
+              <div class="img-box">
+                <img src="images/project1.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <p style="color: #828895;font-size: 12px;">Residential</p>
+                <h5>Sai Aangan</h5>
+                <p style="color: #828895;font-size: 12px;">Location</p>
+                <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="item">
+            <a href="vista.html" class="pin_link">
+              <div class="box">
+                     <div class="img-box">
+                       <img src="images/project2.jpg" alt="" />
+                     </div>
+                     <div class="detail-box">
+                      <p style="color: #828895;font-size: 12px;">Residential</p>
+                      <h5>Sai Vrindavan</h5>
+                      <p style="color: #828895;font-size: 12px;">Location</p>
+                      <p style="color: #828895;font-size: 12px;">1 & 2 BHK</p>
+                    </div>
+                </div>
+             </a>
+          </div>
+         
+     
+    </div>
+  </section>
+  <!-- end project section -->
+  <!-- why us section -->
+  <section class="why_us_section" style="background-color: #f1efef;padding-bottom: 40px;">
+    <div class="container">
+      <div class="heading_container_1">
+        <h2>
+          Why Choose Us?
+        </h2>
+      </div>
+      <div class="why_us_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Project done on time
+            </h5>
+            <p style="color: #5d6f95;">
+              Maintaining our promise of timely project completion, we adhere to strict deadlines with unwavering commitment. Our dedication to punctuality not only underscores our reliability and professionalism but also secures client satisfaction, ensuring successful project outcomes.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Always avaliable
+            </h5>
+            <p style="color: #5d6f95;">
+              Prompt and attentive, we stand by your side at every stage of your project. Our commitment to accessibility means being there when you need us most. Your satisfaction is our priority, and our team ensures clear communication and unwavering support throughout, making us your reliable partner in construction.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Professional and responsible
+            </h5>
+            <p style="color: #5d6f95;">
+              Delivering professional service with a sense of responsibility. We prioritize quality, transparency, and accountability throughout each project, ensuring a trustworthy and reliable construction experience for you.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="about.html">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why us section -->
+
+  <!-- contact section -->
+  <!-- <section class="contact_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="col-lg-4 col-md-5 offset-md-1">
+        <div class="heading_container">
+          <h2>
+            Contact Us
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="form_container">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 px-0">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.5504489914156!2d73.7911714243227!3d18.6392793155391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9b55a376e81%3A0xe01cc59620ed793e!2sMayur%20Trade%20Center%2C%20Chinchwad%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411019!5e0!3m2!1sen!2sin!4v1699520612170!5m2!1sen!2sin" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- end contact section -->
+
+    <!-- info section -->
+    <section class="info_section ">
+
+      <div class="container">
+        
+        <div class="contact_nav">
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span class="phone-numbers">
+             Call : +91 73299 97222 <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +91 91680 10022<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +91 89834 07574
+            </span>
+            
+          </a>
+          <a href="https://mail.google.com/">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>
+              Email : shreesaidevelopers123@gmail.com
+            </span>
+          </a>
+          <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>
+              150,First Floor Mayur Trade Centre,<br>opp. Unique Hospital,<br> Chinchwad Station, Pune-411019
+            </span>
+          </a>
+         
+        </div>
+  
+        <!-- <div class="info_top">
+          <div class="row justify-content-center info_main_row">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="info_links">
+                <h4 style="text-transform: capitalize;">
+                  Quick Links
+                </h4>
+                <div class="info_links_menu">
+                  <a class="" href="index.html">Home </a>
+                  <a class="" href="service.html">Services</a>
+                  <a class="" href="about.html"> About</a>
+                  <a class="" href="project.html">Project</a>
+                  <a class="" href="testimonial.html">Testimonial</a>
+                  <a class="" href="contact.html">Contact Us</a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div> -->
+        <div class="info_bottom text-center">
+          <div class="info_logo">
+              <a href="">
+                  <img src="images/logo2.png" alt="">
+              </a>
+          </div>
+      </div>
+      <div class="info_bottom">
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://vedhindia.com/">Vedh India</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!--  OwlCarousel 2 - Filter -->
+  <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
